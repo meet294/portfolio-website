@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Smooch&display=swap");
+
+.main {
+  justify-content: center;
+  padding: 10%;
+  
+}
+
+.container {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 0%;
+}
+
+h1 {
+  font-family: "Smooch", cursive;
+  font-size: 6rem;
+  color: #000000;
+}
+
+h3 {
+  padding-left: 25%;
+  text-align: left;
+  font: 1em sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.notmain {
+  display: flex;
+  justify-content: center;
+}
+
+.explore {
+  display: flex;
+}
+
+.sorry {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .explore {
+    padding-right: 10%;
+    justify-content: space-between;
+  }
+  h3 {
+    padding-left: 2%;
+    padding-right: 5%;
+    text-align: left;
+    font: 0.8rem sans-serif;
+    font-style: italic;
+  }
+  .main {
+    justify-content: center;
+    padding-top: 45%;
+    padding-bottom: 100%;
+  }
+}

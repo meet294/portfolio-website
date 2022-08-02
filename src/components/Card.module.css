@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap");
+
+.card {
+  height: 400px;
+  width: 300px;
+  display: inline-block;
+  margin-left: 5%;
+  margin-inline-end: 35px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.inner {
+  height: 100%;
+  width: 100%;
+}
+
+.top {
+  height: 50%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.bottom {
+  height: 50%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  font-family: "Manrope", sans-serif;
+}
+
+.innerbottom {
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+}
+
+h2 {
+  font-size: large;
+  font-family: "Jost", sans-serif;
+  font-style: italic;
+}
+
+.imagecontainer {
+  padding: 3%;
+  height: 90%;
+}
+
+.imagee {
+  height: 100%;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 23%;
+  margin: 5px;
+}

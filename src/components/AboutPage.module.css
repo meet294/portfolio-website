@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+
+.about {
+  padding: 10%;
+  padding-bottom: 0%;
+  font-family: "Manrope", sans-serif;
+}
+.all {
+  width: 100%;
+  /* background-image: url(/src/Images/pexels-scott-webb-1022923.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  padding: 2%;
+}
+
+.image {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  width: 800px;
+  font-size: 1.2em;
+  font-family: "Manrope", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  /* background-color: #84fb95;
+  background-image: linear-gradient(315deg, #84fb95 0%, #cef576 74%); */
+  padding: 1%;
+}
+
+@media only screen and (max-width: 650px) {
+  .text {
+    width: 300px;
+  }
+
+  .image {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .about {
+    padding-bottom: 10%;
+  }
+}

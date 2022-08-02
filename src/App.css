@@ -1,0 +1,27 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-clip: url(/src/Images/3157002721.mp4);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+#video {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+}
+
+@media (max-width: 1077px) {
+  #video {
+    width: 0%;
+    height: 0%;
+  }
+
+  .App {
+    background-image: url(/src/Images/pexels-cottonbro-4965816.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
