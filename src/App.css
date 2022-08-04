@@ -13,6 +13,13 @@
   width: 100%;
 }
 
+.loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10%;
+}
+
 @media (max-width: 1077px) {
   #video {
     width: 0%;
@@ -23,5 +30,13 @@
     background-image: url(/src/Images/pexels-cottonbro-4965816.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .loader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:70%;
+    height: 100px;
+    width: 100px;
   }
 }

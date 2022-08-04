@@ -4,7 +4,7 @@ import Card from "./Card";
 import random from "../Images/random.png";
 import knowyourdrink from "../Images/knowyourdrink.png";
 import nytimes from "../Images/nytimes.png";
-import expensetracker from "../Images/expensetracker.png";
+
 
 function ProjectsPage() {
   const ProjectList = [
@@ -12,25 +12,22 @@ function ProjectsPage() {
       image: random,
       title: "Random Advice Generator",
       About: "Will give you useless random advice.",
+      glink: "https://github.com/meet294/RandomAdviceGenerator",
       index: 1,
     },
     {
       image: knowyourdrink,
       title: "Know your Drink",
       About: "Search the recipe of your favourite drink.",
+      glink: "https://github.com/meet294/Know-Your-Drink",
       index: 2,
     },
     {
       image: nytimes,
       title: "BookStop",
       About: "Shows NY Times current bestSellers.",
+      glink: "https://github.com/meet294/Book-Stop",
       index: 3,
-    },
-    {
-      image: expensetracker,
-      title: "ExpenseTracker",
-      About: "Keep track of your expenses.",
-      index: 4,
     },
   ];
   return (
@@ -54,6 +51,7 @@ function ProjectsPage() {
               image={item.image}
               title={item.title}
               About={item.About}
+              glink={item.glink}
               key={item.index}
             ></Card>
           ))}

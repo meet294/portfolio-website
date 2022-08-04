@@ -4,6 +4,7 @@ import { useState } from "react";
 import more from "../Images/loadmore.jpg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import resume from "../Images/Goswami.png";
 
 function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
@@ -35,7 +36,9 @@ function Navbar() {
             >
               Projects
             </Link>
-            <a>Resume</a>
+            <a href={resume} target="_blank" rel="noreferrer">
+              Resume
+            </a>
           </div>
           <button onClick={() => setShowLinks(!showLinks)}>
             <img src={more} alt="load more" className={classes.image} />

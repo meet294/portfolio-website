@@ -61,3 +61,9 @@ h2 {
   padding-top: 23%;
   margin: 5px;
 }
+
+.buttons a {
+  color: inherit;
+  text-decoration: inherit;
+  display: block;
+}

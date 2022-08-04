@@ -1,7 +1,7 @@
 import classes from "./Card.module.css";
 import Button from "./Button";
 
-function Card({ image, title, About }) {
+function Card({ image, title, About, glink }) {
   return (
     <div className={classes.card}>
       <div className={classes.inner}>
@@ -15,8 +15,12 @@ function Card({ image, title, About }) {
             <h2>{title}</h2>
             <div className={classes.texta}>{About}</div>
             <div className={classes.buttons}>
-              <Button>Show Code</Button>
-              <Button>Visit Site</Button>
+              <Button>
+                <a target="_blank" rel="noreferrer" href={glink}>
+                  Show Code
+                </a>
+              </Button>
+              {/* <Button>Visit Site</Button> */}
             </div>
           </div>
         </div>
